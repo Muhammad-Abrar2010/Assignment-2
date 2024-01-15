@@ -1,20 +1,33 @@
 @media screen and (max-width: 600px) {
-    *{
-        margin: 0;
-        font-family: "Mulish", sans-serif;
-
-
-
-
-    }
-
-
-
-    .header{
-        display: none;
-
-
-
-
-    }
+  * {
+    margin: 0;
+    font-family: "Mulish", sans-serif;
   }
+    /* header */
+  .header {
+    display: none;
+  }
+        /* section-1 */
+  .section-1-container {
+    margin: 16px;
+  }
+
+  .section-1-container h1 {
+    color: #fff;
+    font-family: Mulish;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .section-1-container p {
+    color: #fff;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+  }
+}

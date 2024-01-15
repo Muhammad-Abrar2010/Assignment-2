@@ -1,0 +1,81 @@
+.section-1 {
+  text-align: center;
+}
+
+.section-1-container {
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-position: cover;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100%;
+  margin: 0px 136px 0px 136px;
+  border-radius: 16px;
+}
+
+.section-1-container h1 {
+  color: #fff;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 161px;
+}
+
+.section-1-container p {
+  color: #fff;
+  text-align: center;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.child-2 {
+  margin: 64px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: space-around;
+
+  padding: 24px;
+  margin-bottom: 106px;
+  align-items: center;
+}
+.child-2 input {
+  color: rgba(19, 19, 24, 0.5);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 8px;
+  background: #fff;
+  border: 0px white;
+  width: 174px;
+  height: 52px;
+}
+
+.child-2 select {
+  height: 55px;
+  background-color: #fff;
+  color: #131318b2;
+  border: 0px white;
+  flex-shrink: 0;
+  padding-left: 12px;
+  border-radius: 8px;
+}
+
+.child-2 button {
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #ff5400;
+}
