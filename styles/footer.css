@@ -1,0 +1,18 @@
+.footer{
+    /* width: 1440px;
+height: 502px; */
+ display: block;
+align-items: center;
+text-align: center;
+background: rgba(19, 19, 24, 0.05);
+}
+
+.footer h1{
+
+    color: var(--Dark-01, #131318);
+/* padding-top: 137px; */
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}

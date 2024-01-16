@@ -1,0 +1,71 @@
+.section-7{
+    margin: 2%;
+}
+
+.section-7-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sec7-child-1{
+ 
+ 
+background-color: #fff;
+border: 1px solid #ff5400;
+border-radius: 16px;
+padding: 16px;
+}
+
+
+.sec7-child-1 input {
+    color: black;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 8px;
+    background: #fff;
+    border: 0px white;
+    width: 174px;
+    height: 52px;
+   
+  }
+
+  .sec7-child-2{
+    padding: 25px;
+    background-image: url(../Images/Rectangle\ 8\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    width: 672px;
+height: 422px;
+border-radius:16px ;
+position: relative;
+
+  }
+
+  .sec7-child-2 h3{
+    transform: rotate(-19.628deg);
+    position: absolute;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: #ff5400;
+  }
+
+  .sec7-child-2 h1{
+    transform: rotate(-19.628deg);
+    position: absolute;
+    color: #FFF;
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+background-color: #ff5400;
+margin: 15px;
+  }
