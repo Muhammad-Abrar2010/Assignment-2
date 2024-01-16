@@ -1,0 +1,121 @@
+.sec5-child-1 {
+     margin: 2%;
+}
+
+.sec5-child-1 h1{
+
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.sec5-child-1 p{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
+
+.sec5-minichild-1 {
+  border-radius: 16px;
+  background-image: url(../Images/Group\ 39.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 2%;
+  padding: 56px 56px 55px 535px;
+   
+  
+}
+
+.sec5-nanochild-1 {
+  width: 579px;
+  height: 389px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  padding: 5%;
+  
+  
+}
+
+.nano-text{
+
+
+    color: #5A5A5D;
+ 
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+ 
+}
+
+.nano-img{
+
+    padding-left: 12px;
+}
+
+.mini-header{
+    color: #131318;
+ 
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+
+.mini-p{
+
+
+    color: #5A5A5D;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
+
+.mini-h2{
+
+    color: #FF5400;
+ 
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 24px;
+}
+
+.mini-btn{
+    color: white;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+background-color: #FF5400;
+border-radius: 16px;
+border: 0px #FF5400;
+width: 150px;
+height: 52px;
+ 
+
+}
+
+.sec5a-minichild-1 {
+    border-radius: 16px;
+    background-image: url(../Images/Group\ 40.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 2%;
+    padding: 56px 535px 55px 56px;
+     
+    
+  }
