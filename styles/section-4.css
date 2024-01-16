@@ -1,5 +1,5 @@
 .section-4 {
-  margin: 3%;
+  margin: 2%;
 }
 
 .sec4-child-1 h1 {
@@ -28,7 +28,7 @@
   background-color: rgba(251, 180, 99, 0.797);
   padding: 3%;
   border-radius: 16px;
-  margin: 10px;
+  margin: 5px;
   border: 2px solid rgba(251, 181, 99, 0.2);
 }
 
@@ -66,7 +66,7 @@
   background-color: rgba(41, 206, 246, 0.05);
   padding: 3%;
   border-radius: 16px;
-  margin: 10px;
+  margin: 5px;
   border: 2px solid rgba(41, 206, 246, 0.2);
 }
 
@@ -77,7 +77,6 @@
 .sec4-minichild-2 h1 {
   color: #131318;
   text-align: left;
-
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
@@ -87,9 +86,49 @@
 
 .sec4-minichild-2 p {
   color: #5a5a5d;
-
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+}
+
+
+.sec4-minichild-3{
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding: 3%;
+margin: auto;
+
+
+
+}
+
+
+.sec4-minichild-3 h1{
+
+  color: #131318;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-bottom: 16px;
+}
+
+.sec4-minichild-3 p{
+
+
+  color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
+.sec4-minichild-3 img{
+
+
+  padding-bottom: 45px;
 }
