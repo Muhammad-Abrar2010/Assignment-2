@@ -1,0 +1,41 @@
+.section-6-container{
+    display: flex;
+}
+
+.sec6-child-1{
+
+   
+    margin: 2%;
+    margin-top: 5pxs;
+}
+
+.sec6-child-1 h1{
+    color: #131318;
+ 
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 60px;  
+}
+
+.sec6-child-1 p{
+    color: #5A5A5D;
+ 
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;  
+}
+
+.sec6-child-1 li{
+
+
+    color: #131318;
+ 
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+}
+
+ 

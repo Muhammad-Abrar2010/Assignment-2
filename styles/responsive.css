@@ -98,21 +98,22 @@
   .sec4-minichild-1 {
     width: 335px;
     height: 289px;
-    margin: 16px;
+    padding-right:3px ;
   }
 
   .sec4-minichild-2 {
-    width: 335px;
+    width: 300px;
     height: 289px;
-    margin: 16px;
+  
   }
 
   .sec4-minichild-3 {
-    width: 335px;
+    width: 300px;
     height: 289px;
-    margin: 16px;
+     
   }
 
+ 
   .sec5-minichild-1 {
     width: 335px;
     height: 500px;
@@ -129,4 +130,17 @@
     height: 500px;
     padding: 187px 16px 16px 16px;
   }
+
+
+  .btn-x{
+
+    display: none;
+  }
+
+
+  .section-6-container{
+    display: flex;
+    flex-direction: column;
+}
+
 }
