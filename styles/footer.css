@@ -5,6 +5,8 @@ height: 502px; */
 align-items: center;
 text-align: center;
 background: rgba(19, 19, 24, 0.05);
+border-radius: 16px;
+margin: 0;
 }
 
 .footer h1{
