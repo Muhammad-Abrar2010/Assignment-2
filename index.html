@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EZ Travel</title>
-    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/section-1.css">
+    <link rel="stylesheet" href="styles/section-1.css" />
+    <link rel="stylesheet" href="styles/section-2.css" />
+    <link rel="stylesheet" href="styles/section-3.css" />
     <link rel="stylesheet" href="styles/responsive.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,13 +17,13 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <header class="header">
       <div style="display: flex">
         <img src="Images/Group 40071 (2).png" alt="" />
         <h1>EZ <span style="color: #ff5400">Travel</span></h1>
       </div>
-
       <nav>
         <ul>
           <li><a id="HOME" href="index.html">HOME</a></li>
@@ -32,44 +34,161 @@
         </ul>
       </nav>
     </header>
-
-
-
     <section class="section-1">
       <div class="section-1-container">
-        <div class="child-1">
-         <h1> Explore Your Travel</h1>
-         <p>So you are interested in travelling?Let's explore your travel with us</p>
-          
+        <div class="sec1-child-1">
+          <h1>Explore Your Travel</h1>
+          <p>
+            So you are interested in travelling?<br />Let's explore your travel
+            with us
+          </p>
         </div>
-        <div class="child-2">
-          <form action="">
-            <input type="text" name="Where go" id="" placeholder="Where go">
-            <input type="" name="When" id="" placeholder="When"><select name="When" id=""  >When</select>
-            <input type="" name="Select Type" id="" placeholder="Select Type"><select name="Select Type" id=""  >Select Type</select>
-            <button>  <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></i> Find Now</Btn>
-
-            
-
-
-
-             
-          </form>
-
-
-
-
-
+        <div class="sec1-child-2">
+          <div class="sec1-child-2-a">
+            <form action="">
+              <input type="text" name="Where go" id="" placeholder="Where go" />
+              <input
+                placeholder="Date"
+                type="text"
+                onfocus="(this.type='date')"
+                onblur="(this.type='text')"
+                id="date"
+              />
+              <select name="Select Type" id="">
+                Select Type
+                <option value="Select Type">
+                  <span style="color: gray">Select Type</span>
+                </option>
+                <option value="Business">Business</option>
+                <option value="Economy">Economy</option>
+              </select>
+              <button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="16"
+                  width="16"
+                  viewBox="0 0 512 512"
+                >
+                  <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+                  />
+                </svg>
+                Find Now
+              </button>
+            </form>
+          </div>
         </div>
-
-
-
-
       </div>
+    </section>
+
+    <section class="section-2">
+      <div class="section-2-container">
+        <div class="sec2-child-1">
+          <h1>Our Popular Tours</h1>
+          <p>Let's explore <br />our best tours!</p>
+          <ul>
+            <li>
+              <span>Maldives</span> is our one of best and Popular tours.
+              <br />Luxury water villa resorts, pristine white sands and a
+              gorgeous marine life <br />make the Maldives a perfect destination
+              for discerning travelers.
+            </li>
+            <br />
+            <li>
+              <span>Spain</span> is generally a country where there is a great
+              mix of cultures, and <br />
+              this brings with it a combination of different traditions, customs
+              and beliefs.
+            </li>
+            <br />
+            <li>
+              <span>Nepal</span> is a tiny Himalayan country but rich in
+              biodiversity, natural beauty, and culture.
+            </li>
+            <br />
+          </ul>
+          <h6>
+            So why are you late?Book your seat now! <br />
+            to visit these popular <br />place.Contact with us for more info.
+          </h6>
+          <br />
+          <button>Read More</button>
+        </div>
+        <br />
+        <br />
+        <div class="sec2-child-2">
+          <img src="Images/Rectangle 4.png" alt="mountain" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section-3">
+     <div class="section-3-container">
+      <div>
+        <h1>Choose Your Destination</h1>
+        <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+      </div>
+      <div class="mini-child-1">
+      <div class="sec3-child-1 mobile-3 pc-3"><h1> Maldives</h1></div>
+      <div class="sec3-child-2 mobile-3 pc-3"><h1>Indonesia</h1></div>
+    </div>
+
+
+    <div class="mini-child-2">
+      <div class="sec3-child-3 mobile-3 pc-3"><h1>Sri Lanka</h1></div>
+      <div class="sec3-child-4 mobile-3 pc-3"><h1>North America</h1></div>
+      <div class="sec3-child-5 mobile-3 pc-3"><h1>Kashmir</h1></div>
+    </div>
+
+
+    <div class="mini-child-3">
+      <div class="sec3-child-6 mobile-3 pc-3"><h1>Bangladesh</h1></div>
+      <div class="sec3-child-7 mobile-3 pc-3"><h1>Banadarban</h1></div>
+    </div>
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     </div>
     </section>
   </body>
 </html>
